@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/flexsand/precache-manifest.3d45a62bc4eb406cff2b5b3b6c202dfd.js"
+  "/flexsand/precache-manifest.272f0ad1497ac7d8cf9faecb15feff14.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "flexbox"});
