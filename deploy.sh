@@ -6,8 +6,13 @@ set -e
 # Сборка
 npm run build
 
+git add dist && git commit -m "deploy"
+
+# Кидаем в онлайн ветку gh-pages
+git subtree push --prefix dist origin gh-pages
+
 # Переходим в католог сборки
-cd dist
+# cd dist
 
 # git init
 # git add -A
@@ -15,4 +20,4 @@ cd dist
 
 # git push -f https://
 
-cd -
+# cd -
